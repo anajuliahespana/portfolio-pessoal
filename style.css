@@ -1,0 +1,314 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a8d8f5;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    background-color: #addbff;
+    border: 3px solid #222;
+    border-radius: 40px;
+
+    min-height: calc(100vh - 20px);
+    margin: 10px;
+
+    padding: 20px 35px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+
+    padding: 10px 25px;
+
+    background-color: white;
+    color: #222;
+
+    border: 3px solid #2176c7;
+    border-radius: 12px;
+
+    text-decoration: none;
+    font-size: 22px;
+
+    transition: 0.3s;
+}
+
+nav ul li a.ativo {
+    background-color: #2176c7;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #80bfff;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 90px;
+    gap: 50px;
+}
+
+.foto {
+    width: 280px;
+    height: 280px;
+
+    border: 3px solid #222;
+    border-radius: 50%;
+
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.nome h1 {
+    font-size: 45px;
+    font-style: italic;
+    line-height: 1.3;
+
+    color: #222;
+}
+
+.nome span {
+    display: block;
+    margin-left: 80px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 50px;
+    padding: 40px;
+}
+
+.sobre-texto {
+    width: 55%;
+}
+
+.sobre-texto h1 {
+    font-size: 38px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.sobre-texto {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.sobre-foto {
+    width: 350px;
+    height: 300px;
+
+    background-color: white;
+    border: 3px solid #222;
+    border-radius: 30px;
+
+    overflow: hidden;
+}
+
+.sobre-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projetos {
+    padding: 15px 35px;
+}
+
+.projetos h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.lista-projetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 60px;
+}
+
+.projeto {
+    background-color: white;
+
+    width: 30%;
+    min-height: 125px;
+
+    border: 3px solid #222;
+    border-radius: 25px;
+
+    padding: 12px;
+}
+
+.projeto h2 {
+    font-size: 17px;
+    font-weight: normal;
+
+    margin-bottom: 15px;
+}
+
+.projeto p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.contato {
+    padding: 35px 40px;
+    text-align: center;
+}
+
+.contato h1 {
+    font-size: 30px;
+    font-weight: normal;
+
+    margin-bottom: 10px;
+}
+
+.contato-intro {
+    font-size: 19px;
+    line-height: 1.5;
+
+    margin-bottom: 25px;
+}
+
+.contatos {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    justify-items: center;
+    align-items: start;
+
+    gap: 15px 80px;
+}
+
+.contato-item {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    color: #222;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.contatos .icone-contato {
+    width: 55px !important;
+    height: 55px !important;
+
+    max-width: 55px !important;
+    max-height: 55px !important;
+
+    object-fit: contain !important;
+
+    margin-bottom: 5px;
+}
+
+.contato-item p {
+    font-size: 20px;
+
+    margin: 0;
+}
+
+.contato-item.github {
+    grid-column: 1 / 3;
+}
+
+.contato-item:hover {
+    transform: scale(1.05);
+}
+
+.certificados {
+    padding: 35px 40px;
+}
+
+.logo-mobfog {
+    display: block;
+
+    width: 280px;
+    height: auto;
+
+    margin: 0 auto 30px;
+}
+
+.lista-certificados {
+    background-color: white;
+
+    border: 3px solid #222;
+    border-radius: 30px;
+
+    padding: 15px;
+
+    width: 90%;
+
+    margin: 0 auto;
+}
+
+.certificado {
+    margin-bottom: 20px;
+}
+
+.certificado:last-child {
+    margin-bottom: 0;
+}
+
+.certificado h2 {
+    font-size: 20px;
+
+    font-weight: normal;
+
+    margin-bottom: 5px;
+}
+
+.certificado p {
+    font-size: 18px;
+
+    line-height: 1.4;
+
+    margin: 0;
+}
